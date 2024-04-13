@@ -16,6 +16,7 @@ print('Comi pra caramba!')'''
 lanche = ('Hamburguer', 'Suco', 'Pizza', 'Pudim', 'Fritas')
 print(len(lanche))
 print('Comi pra caramba!')
+<<<<<<< HEAD
 
 '''0: Hamburguer
 1: Suco
@@ -31,3 +32,5 @@ Quando você faz lanche[:2], está dizendo “me dê todos os lanches até a pos
 Quando você faz lanche[-2:], está dizendo “me dê os últimos dois lanches”. Então, você obtém ‘Pizza’ e ‘Pudim’.
 
 Espero que isso ajude a entender melhor o código! Se você tiver mais perguntas, fique à vontade para perguntar.'''
+=======
+>>>>>>> eba7eac577b8481d463d523d4fa50e8c0089b004
