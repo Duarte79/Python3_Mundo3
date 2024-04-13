@@ -13,24 +13,37 @@ for comida in lanche:
     print(f'Eu vou comer {comida}')
 print('Comi pra caramba!')'''
 
-lanche = ('Hamburguer', 'Suco', 'Pizza', 'Pudim', 'Fritas')
+'''lanche = ('Hamburguer', 'Suco', 'Pizza', 'Pudim', 'Fritas')
 print(len(lanche))
-print('Comi pra caramba!')
-<<<<<<< HEAD
+print('Comi pra caramba!')'''
 
-'''0: Hamburguer
-1: Suco
-2: Pizza
-3: Pudim
+'''lanche = ('Hamburguer', 'Suco', 'Pizza', 'Pudim', 'Fritas')
+for cont in range(0, len(lanche)):
+    print(cont)'''
 
-Agora, quando você faz algo como lanche[1:3], está basicamente dizendo “me dê os lanches da posição 1 até a posição 3, mas não inclua o lanche na posição 3”. Então, você obtém ‘Suco’ e ‘Pizza’.
+'''lanche = ('Hamburguer', 'Suco', 'Pizza', 'Pudim', 'Fritas')
+for cont in range(0, len(lanche)):
+    print(lanche[cont])'''
 
-Quando você faz lanche[2:], está dizendo “me dê todos os lanches a partir da posição 2”. Então, você obtém ‘Pizza’ e ‘Pudim’.
+'''lanche = ('Hamburguer', 'Suco', 'Pizza', 'Pudim', 'Fritas')
+for cont in range(0, len(lanche)):
+    print(f' Eu vou comer {lanche[cont]}')'''
 
-Quando você faz lanche[:2], está dizendo “me dê todos os lanches até a posição 2, mas não inclua o lanche na posição 2”. Então, você obtém ‘Hamburguer’ e ‘Suco’.
+'''lanche = ('Hamburguer', 'Suco', 'Pizza', 'Pudim', 'Fritas')
+for cont in range(0, len(lanche)):
+    print(f'Eu vou comer {lanche[cont]} na posição {cont}')'''
 
-Quando você faz lanche[-2:], está dizendo “me dê os últimos dois lanches”. Então, você obtém ‘Pizza’ e ‘Pudim’.
+'''lanche = ('Hamburguer', 'Suco', 'Pizza', 'Pudim', 'Fritas')
+for pos, comida in enumerate(lanche):
+    print(f'Eu vou comer {comida} na posição {pos}')'''
 
-Espero que isso ajude a entender melhor o código! Se você tiver mais perguntas, fique à vontade para perguntar.'''
-=======
->>>>>>> eba7eac577b8481d463d523d4fa50e8c0089b004
+'''lanche = ('Hamburguer', 'Suco', 'Pizza', 'Pudim', 'Fritas')
+print(sorted(lanche))'''
+
+a = (2, 5, 4)
+b = (5, 8, 1, 2)
+c = a + b
+print('A', c)
+print('B', len(c))
+print('C', c.count(5))
+print('D', c.index(8))
