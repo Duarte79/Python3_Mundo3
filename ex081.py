@@ -5,7 +5,6 @@ while True:
         break
     numeros.append(numero)
 quantidade_numeros = len(numeros)
-numeros.sort(reverse=True)
 valor_5_presente = 5 in numeros
 print(f'Quantidade de números digitados {quantidade_numeros}')
 print(f'lista de valores ordenados de forma decrescente {numeros}')
