@@ -65,3 +65,4 @@ b = a[:]
 b[2] = 8
 print('lista A', a)
 print('lista B', b)
+
