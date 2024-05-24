@@ -2,10 +2,10 @@ from random import randint
 from time import sleep
 from operator import itemgetter
 jogo = {'jogador 1': randint(1, 6),
-        'jogador 2': randint(1, 2),
-        'jogador 3': randint(1, 2),
-        'jogador 4': randint(1, 2)}
-randint = list()
+        'jogador 2': randint(1, 6),
+        'jogador 3': randint(1, 6),
+        'jogador 4': randint(1, 6)}
+ranking = list()
 print('valores sorteados: ')
 for k, v in jogo.items():
         print(f'{k} tirou {v} no dado')
