@@ -3,11 +3,11 @@ dados = dict()
 dados['nome'] = str(input('nome: '))
 nasc = int(input('Ano de nascimento: '))
 dados['idade'] = datetime.now().year-nasc
-dados['ctps'] = int(input('Carteira de trabalho(0 não tem: '))
+dados['ctps'] = int(input('Carteira de trabalho(Digite 0 caso não tenha:)'))
 if dados['ctps'] !=0:
     dados['contratação'] = int(input('Ano de contratação: '))
     dados['salário'] = float(input('salário: R$'))
     dados['aposentadoria'] = dados['idade'] + ((dados['contratação']+35)-datetime.now().year)
-print('-=*30')
+print('-='*30)
 for k, v in dados.items():
     print(f' -{k} tem o valor {v}')
